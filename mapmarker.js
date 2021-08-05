@@ -1,3 +1,5 @@
+// unused
+
 function createMapMarker() {
     // TODO: add your own access token
     mapboxgl.accessToken = 'no';
