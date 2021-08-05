@@ -1,0 +1,8 @@
+{
+    "name": "mapmarker",
+    "type": "module",
+    "main": "mapmarker.js",
+    "dependencies": {
+        "dotenv": "^10.0.0"
+    }
+}

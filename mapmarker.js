@@ -1,6 +1,6 @@
 function createMapMarker() {
     // TODO: add your own access token
-    mapboxgl.accessToken = '';
+    mapboxgl.accessToken = 'no';
   
     let map = new mapboxgl.Map({
         container: 'map',
@@ -10,7 +10,9 @@ function createMapMarker() {
     });
   
     // TODO: add a marker to the map
-    
+    var marker = new mapboxgl.Marker()
+        .setLngLat([-71.091542,42.358862])
+        .addTo(map)
   }
   
   // Do not edit the code below
